@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}

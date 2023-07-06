@@ -1,14 +1,159 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: large;
+    font-weight: bold;
 }
 
 .header{
     display: flex;
+    background-color: rgb(134, 131, 131);
+    align-items: center;
 }
 
-.header{
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+    padding-left: 20px ;
+}
+
+.links{
     display: flex;
-    list-style-type: none;
     text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: flex-end;
+}
+
+.links>li{
+    
+    padding: 0 20px;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.section-1{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    background-color: #1f3927;
+}
+
+.left-items{
+    display: flex;
+    flex-direction: column;   
+}
+
+.left-items h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.left-items p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 button{
+    padding: 8px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+img{
+    max-width: 200px;
+    border-radius: 15px;
+   
+}
+
+
+.section-2{
+    padding: 100px;
+}
+
+.section-2 h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+   
+   
+}
+
+.card{
+    border: 5px solid #3882f6;
+}
+
+.section-3{
+    text-align: center;
+    padding: 100px;
+    background-color: #e5e7eb;
+}
+
+.section-3 h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.section-3 p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.section-4{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-box{
+    margin: 80px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 15px;
+}
+
+.section-4 button{
+    margin: 30px;
+    border-radius: 10px;
+    padding: 0 15px;
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f3927;
+    color: #e5e7eb;
 }

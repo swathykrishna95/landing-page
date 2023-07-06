@@ -46,18 +46,21 @@ a:visited{
 }
 
 .section-1{
-    padding: 100px;
+    padding: 80px;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+   
     align-items: center;
-    padding: 80px;
     background-color: #1f3927;
+    gap: 200px;
 }
 
 .left-items{
     display: flex;
-    flex-direction: column;   
+    flex-wrap: wrap;
+    flex-direction: column; 
+    max-width: 50vw;
+    
 }
 
 .left-items h1{
@@ -67,8 +70,12 @@ a:visited{
 }
 
 .left-items p{
+    flex: 1;
     font-size: 18px;
     color: #e5e7eb;
+    flex-wrap: wrap;
+    
+   
 }
 
 .section-1 button{
@@ -78,7 +85,8 @@ a:visited{
 }
 
 img{
-    max-width: 200px;
+  
+    max-width: 300px;
     border-radius: 15px;
    
 }
@@ -100,12 +108,10 @@ img{
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-   
-   
 }
 
-.card{
-    border: 5px solid #3882f6;
+.card p{
+    text-align: center;
 }
 
 .section-3{
@@ -141,13 +147,14 @@ img{
     background-color: #3882f6;
     display: flex;
     border-radius: 15px;
+    color: #f9faf8;
 }
 
 .section-4 button{
     margin: 30px;
     border-radius: 10px;
     padding: 0 15px;
-    border-color: white;
+    border-color: #f9faf8;
 }
 
 .footer{
